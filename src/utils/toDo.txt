@@ -1,0 +1,48 @@
+1 done
+Initialize Project Settings:
+
+2 done
+Set up your package.json with any additional scripts or dependencies you may need.
+Configure vite.config.js if you have any specific configurations for Vite, such as aliases or plugins.
+Update .eslintrc.js to match your preferred linting rules.
+Set Up Styles:
+
+3 done
+Write the basic styles in index.css and App.css. This way, you can ensure that your global styles or resets are applied from the start.
+Create Utility Functions:
+
+4 done
+If you have a clear idea of the utility functions needed, you can start writing dataModel.js within the utils folder. These might include data transformations, validators, or helper functions.
+Write Component Logic:
+
+5
+Start with MainComponent.jsx. As the orchestrator of your application flow, getting this structure right is crucial. Define your state, handlers, and the conditional rendering logic.
+Write the App.jsx component, which will render MainComponent.jsx. App.jsx is usually the top-level component in your application.
+
+6
+Move on to the individual components within the components/surveyComponents and components/gameComponents folders.
+Start with the survey components (Survey1.jsx, Survey2.jsx, Survey3.jsx), since they're likely to be the first interaction a user has with your application.
+Define the forms and any state they need to handle user input.
+Implement the logic for proceeding to the next survey or step.
+After the surveys, work on the gameComponents like Game.jsx and Cave.jsx. Flesh out the game mechanics and rendering logic.
+Integrate Assets:
+
+7
+If your components use assets like images, import them into the respective components where they're needed.
+Ensure that react.svg (and any other assets) are referenced correctly in the components that use them.
+Test Components Individually:
+
+8
+As you complete each component, test them individually. You can import and render them temporarily in App.jsx for isolation testing.
+Main Entry Point (main.jsx):
+
+9
+Ensure main.jsx is correctly bootstrapping your React app by rendering the App component.
+Public Assets:
+
+10
+Update index.html in the public folder to make sure it's pointing to the correct entry point and has the correct links to your assets.
+Backend Server (Optional):
+
+11
+If server.js is intended to be part of the backend or serve the application, set that up according to your backend logic.

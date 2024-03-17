@@ -1,0 +1,45 @@
+/*General*/
+.page {
+    min-height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.TitleDiv{
+    background-color:var(--accent-color);
+    text-align: center;
+    padding: 1.5rem 1rem; /*0 rem for width padding as width will automaticaly be the max of all the divs in the container*/
+  }
+
+.InputDiv{
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+/*Survey 1 spceific*/
+
+/*Survey 2 spceific*/
+#survey2Div_test h1{
+    color: green;
+}
+
+/*Survey 3 spceific*/
+#survey3Div_test h1{
+    color: blue;
+}
+
+#warningDiv{
+  display: none;
+  color: red;
+  padding-bottom: 1.5rem;
+}
+
+.ButtonDiv button:active {
+  background-color: var(--highlight-color); 
+}

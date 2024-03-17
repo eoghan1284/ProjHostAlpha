@@ -1,0 +1,63 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set up root variables */
+:root {
+  --text-color: white; 
+  --text-color-secondary: black; 
+  --accent-color: purple;
+  --highlight-color: #0d6efd;
+  --background-color: rgb(175, 175, 175);
+  --inputBackground-color: rgb(227, 223, 223);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif; 
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button, input, textarea {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: none;
+  padding: 0.5em 1em;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Basic responsive layout */
+.container {
+  padding: 0 1rem;
+  margin: auto;
+  max-width: 1200px;
+}
+
+/* Mobile-first responsive design */
+@media (min-width: 576px) {
+  /* Adjustments for tablets and up */
+}
+
+@media (min-width: 768px) {
+  /* Adjustments for small desktops */
+}
+
+@media (min-width: 992px) {
+  /* Adjustments for larger desktops */
+}

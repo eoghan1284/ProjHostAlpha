@@ -1,0 +1,50 @@
+#page {
+  min-height: 100vh;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#titleDiv {
+  background-color:var(--accent-color);
+  text-align: center;
+  padding: 1rem 0rem; /*0 rem for width padding as width will automaticaly be the max of all the divs in the container*/
+}
+
+#inputDiv {
+  background-color:whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+#expDiv{
+  max-width: 18rem;
+  color: var(--text-color-secondary);
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+#inputDiv select {
+  background-color: var(--inputBackground-color);
+  padding: 0.35rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+#inputDiv button {
+    align-self: center; /*stops button growing to full width */
+    background-color: var(--accent-color);
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 0;
+}
+
+#inputDiv button:active {
+  background-color: var(--highlight-color); 
+}

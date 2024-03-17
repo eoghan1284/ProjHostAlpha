@@ -1,0 +1,17 @@
+.questionContainer{
+    display: grid 1fr;
+    width: 100%;
+}
+.questionLabel{
+    color: var(--text-color-secondary);
+    margin-right: 0.5rem;
+}
+
+.questionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: space-between; 
+    align-items: center;
+    padding-bottom: 1.5rem; 
+  }
+  
